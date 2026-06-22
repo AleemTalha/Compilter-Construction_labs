@@ -1,0 +1,7 @@
+int alpha = 100;
+int alpha = 500;
+float beta = 20.5;
+alpha = 150;
+print alpha;
+print beta;
+print gamma;

@@ -1,0 +1,14 @@
+TOKEN STREAM: [int] [alpha] [=] [100] [;] 
+SYMBOL TABLE: Added alpha [int] = 100
+TOKEN STREAM: [int] [alpha] [=] [500] [;] 
+SYNTAX ERROR: Duplicate declaration of variable 'alpha'
+TOKEN STREAM: [float] [beta] [=] [20.5] [;] 
+SYMBOL TABLE: Added beta [float] = 20.5
+TOKEN STREAM: [alpha] [=] [150] [;] 
+UPDATE: alpha changed to 150
+TOKEN STREAM: [print] [alpha] [;] 
+OUTPUT: alpha is 150
+TOKEN STREAM: [print] [beta] [;] 
+OUTPUT: beta is 20.5
+TOKEN STREAM: [print] [gamma] [;] 
+ERROR: Variable 'gamma' is not declared.
